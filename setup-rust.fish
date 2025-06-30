@@ -1,13 +1,7 @@
 #!/usr/bin/env fish
 
-# utils
-function is_macos
-    test (uname -s) = "Darwin"
-end
-
-function is_linux
-    test (uname -s) = "Linux"
-end
+# import utils
+source (dirname (status --current-filename))/lib/utils.fish
 
 # install or update rust
 if command -v rustc >/dev/null 2>&1
