@@ -1,4 +1,6 @@
-# My environment setup
+# My development environment setup
+
+![pic](https://github.com/gaussfff/gaussfff-env-setup/blob/master/resource/devenv.png)
 
 ## Rust
 
